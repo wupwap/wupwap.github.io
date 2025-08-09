@@ -1,3 +1,4 @@
+
 # c++思考
 ## namespace
 1. Namespace in C++ is the declarative part where the scope of identifiers like functions, the name of types, classes, variables, etc., are declared. The code generally has multiple libraries, and the namespace helps in avoiding the ambiguity that may occur when two identifiers have the same name.
