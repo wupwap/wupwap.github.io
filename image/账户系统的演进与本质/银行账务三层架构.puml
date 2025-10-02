@@ -1,0 +1,18 @@
+@startuml
+package "银行核心账务系统" {
+    [总账] --> [分户账]
+    [分户账] --> [明细账]
+}
+
+note right of [总账]
+总额控制，确保借贷平衡
+end note
+
+note right of [分户账]
+按账户分开记录，每日汇总
+end note
+
+note right of [明细账]
+每笔交易详细流水，便于审计
+end note
+@enduml

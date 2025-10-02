@@ -1,0 +1,3 @@
+- predictable, resource-oriented URLs
+- to use HTTP response codes to indicate API errors
+- to use built-in HTTP features, like HTTP authentication and HTTP verbs, which can be understood by off-the-shelf HTTP clients.
